@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+body{margin:0;}
+div.redbox{
+      width:400px;
+      height:200px;
+      background-color:red;
+      display:inline-block;
+      margin-right:-4px;
+}
+div.bluebox {
+      width:400px;
+      height:200px;
+      background-color:blue;
+      display:inline-block;
+}
+div.top_blackboxes{  
+      width:100px;
+      height:100px;
+      background-color:black;
+      display:inline-block;
+      margin-top:50px;
+      margin-left:66.7px;
+  }
+div.bottom_blackboxes{  
+    width:100px;
+    height:100px;
+    background-color:black;
+    display:inline-block;
+    margin-top:50px;
+    margin-left:66.7px;
+}
+
+</style>
+<!-- margin-right setting is to remove spacing between divs -->
+</head>
+<body>
+    <div class="redbox">
+      <div class="top_blackboxes"></div> 
+      <div class="top_blackboxes"></div>
+    </div>
+    <div class="bluebox">
+      <div class="bottom_blackboxes"></div> 
+      <div class="bottom_blackboxes"></div>
+    </div>
+</body>
+</html>

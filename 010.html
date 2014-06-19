@@ -1,0 +1,86 @@
+<html>
+<head>
+<style>
+    div#leftbox {
+        width:300px;
+        padding:5px;
+        height:200px;
+        background-color:#cccccc;
+    }
+
+    div#rightbox {
+        width:300px;
+        padding:5px;
+        height:175px;
+        background-color:#cccccc;
+        position: absolute;
+        margin-left:325px;
+    }
+    label {
+        display:inline-block;
+        width: 100px;
+    }
+
+    input {
+        display:inline-block;
+    }
+
+    select {
+        display:inline-block;
+    }
+
+</style>
+</head>
+<!-- The interface shows here below -->
+<body>
+    <h1> Columns!</h1>
+    <div id="rightbox">
+        <form>
+            <div>
+                <div>
+                    <label for="name_input">Name</label>
+                    <input type="text" name="name_input"></input>
+                </div>
+                <div>
+                    <label for="age_input">Age</label>
+                    <input type="text" name="age_input"></input>
+                </div>
+                <div>
+                    <label for="color_input">Favorite Color</label>
+                    <select>
+                        <option value="magenta">Magenta</option>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="fuchsia">Fuchsia</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="love_input">Love Music</label>
+                    <input type="radio" name="love_input" value="love"></input>
+                </div>
+                <div>
+                    <label for="hate_input">Hate Music</label>
+                    <input type="radio" name="hate_input" value="hate"></input>
+                </div>
+                <div>
+                    <label for="rain_input">Is it Raining?</label>
+                    <input type="checkbox" name="rain_input" value="yes"></input>
+                </div>
+                <div>
+                    <input type="submit"></input>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="leftbox">
+        <h2>Here is a list of things.</h2>
+        <ul>
+            <li>Bananas</li>
+            <li>Rabbit holes</li>
+            <li>John Quincy Adams</li>
+            <li>Slytherins</li>
+        </ul>
+    </div>
+</body>
+</html>
